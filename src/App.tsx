@@ -4,8 +4,6 @@ import Explore from './Components/Explore'
 import Navbar from './Components/Navbar'
 
 function App() {
- 
-
   return (
     <>
       <Navbar></Navbar>
