@@ -1,5 +1,6 @@
 # DevStack
-
+### 🌐 Live Preview
+- **Live URL:** [View Project Live](https://admirable-duckanoo-8047a4.netlify.app)
 ## Technologies Used
 
 - React.js
