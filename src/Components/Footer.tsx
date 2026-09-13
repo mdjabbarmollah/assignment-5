@@ -9,7 +9,7 @@ const Footer = () => {
 
           <div className='md:col-span-5 max-w-[380px]'>
             <img src={Navlogo} alt="" className='mb-[16px]' />
-            <p className='text-[#64748B] text-[14px] leading-relaxed mb-[20px]'>
+            <p className='text-[#64748B] text-[14px]  mb-[20px]'>
               Curated tools, technologies, and resources for developers building modern software.
             </p>
             <div className='flex gap-[20px] text-[14px] font-medium text-[#374151]'>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           <div className='md:col-span-2'>
-            <h4 className='text-[13px] font-bold tracking-wide text-[#1E293B] mb-[16px]'>PRODUCT</h4>
+            <h4 className='text-[13px] font-bold tracking-wide  text-[#1E293B] mb-[16px]'>PRODUCT</h4>
             <ul className='flex flex-col gap-[12px] text-[14px] text-[#64748B]'>
               <li className='cursor-pointer hover:text-[#DB2777]'>Home</li>
               <li className='cursor-pointer hover:text-[#DB2777]'>Technologies</li>

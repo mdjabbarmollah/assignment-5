@@ -6,10 +6,10 @@ interface cardsprops {
   onaddclick: (tech: CardobjectTypelekhaholo) => void;
 }
 
-const difficultycolor = (difficulty: CardobjectTypelekhaholo['difficulty']) => {
-  if (difficulty === 'Beginner-Friendly') {
+const difficultycolor = (level_of_difficulty: CardobjectTypelekhaholo['difficulty']) => {
+  if (level_of_difficulty === "Beginner-Friendly") {
     return 'text-[#475569]';
-  } else if (difficulty === 'Intermediate') {
+  } else if (level_of_difficulty === 'Intermediate') {
     return 'text-[#475569]';
   } else {
     return 'text-[#475569]';
@@ -18,29 +18,28 @@ const difficultycolor = (difficulty: CardobjectTypelekhaholo['difficulty']) => {
 
 const badgecolor = (badge: string | undefined) => {
   if (badge === 'Popular') {
-    return 'bg-pink-50 text-pink-500';
-  } else if (badge === 'Versatile') {
-    return 'bg-green-50 text-green-600';
+    return 'bg-[E0F2FE] text-[#0EA5E9]';
+  
   } else if (badge === 'Fast') {
-    return 'bg-orange-50 text-orange-600';
+    return 'bg-[#FFF7ED] text-orange-[#EA580C]';
   } else if (badge === 'Standard') {
-    return 'bg-emerald-50 text-emerald-600';
+    return 'bg-[#D1FAE5] text-[#059669]';
   } else if (badge === 'Top SQL') {
-    return 'bg-blue-50 text-blue-600';
+    return 'bg-[#DBEAFE] text-[#]';
   } else if (badge === 'Cache') {
-    return 'bg-red-50 text-red-600';
+    return 'bg-[#FEE2E2] text-[#DC2626]';
   } else if (badge === 'Ubiquitous') {
-    return 'bg-amber-50 text-amber-600';
+    return 'bg-[#FEF3C7] text-[#D97706] ';
   } else if (badge === 'Essential') {
-    return 'bg-sky-50 text-sky-600';
+    return 'bg-[#E0F2FE] text-[#0284C7] ';
   } else if (badge === 'Robust') {
-    return 'bg-slate-100 text-slate-500';
+    return 'bg-[#E0F2FE] text-[#0284C7] ';
   } else if (badge === 'Modern') {
-    return 'bg-cyan-50 text-cyan-600';
+    return 'bg-[#CFFAFE]  text-[#0891B2] ';
   } else if (badge === 'Containers') {
-    return 'bg-indigo-50 text-indigo-600';
+    return 'bg-[#E0F2FE]   text-[#0284C7]';
   } else {
-    return 'bg-pink-50 text-pink-500';
+    return 'bg-[#F0F9FF]  text-[#0284C7]';
   }
 };
 

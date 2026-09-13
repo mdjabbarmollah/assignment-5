@@ -6,6 +6,7 @@ import Card from './Cardsection';
 import processdataObject from './Hooks';
 import type { CardobjectTypelekhaholo } from './type';
 
+
 const explore = () => {
   const { etaholoparameter, loadinghocchekina } = processdataObject();
 
@@ -22,7 +23,7 @@ const explore = () => {
     }
 
     if (alreadyache) {
-      toast.warning(tech.name + 'already added');
+      toast.warning( "already added");
       return;
     }
 
@@ -30,15 +31,15 @@ const explore = () => {
       return [...prev, tech];
     });
 
-    toast.success('Add to cart successfully');
+    toast.success('Add to stack successfully');
   };
 
   const removefromstack = (id: string) => {
-    let removeditem: CardobjectTypelekhaholo | undefined = undefined;
+    let stacthkeitemguloRemovekoraholo: CardobjectTypelekhaholo | undefined = undefined;
 
     for (let i = 0; i < stack.length; i++) {
       if (stack[i].id === id) {
-        removeditem = stack[i];
+        stacthkeitemguloRemovekoraholo = stack[i];
         break;
       }
     }
@@ -49,8 +50,8 @@ const explore = () => {
       });
     });
 
-    if (removeditem) {
-      toast.info(removeditem.name + 'remove');
+    if (stacthkeitemguloRemovekoraholo) {
+      toast.info(stacthkeitemguloRemovekoraholo.name + 'remove');
     }
   };
 
@@ -68,7 +69,7 @@ const explore = () => {
 
       <div className="mb-[40px]">
         <h2 className="text-[32px] md:text-[40px] font-extrabold text-[#1E293B]">
-          Explore the <span className="bg-gradient-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">
+          Explore the <span className='[background-image:var(--brand-gradient)] bg-clip-text text-transparent'>
             Technologies
           </span>
         </h2>
