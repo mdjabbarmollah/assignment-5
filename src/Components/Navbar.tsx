@@ -10,7 +10,7 @@ const Navbar = () => {
         <img src={Navlogo} alt="" />
          
         <ul className=' hidden md:flex gap-6 '>
-            <li className='text-pink-500 '>Home</li>
+            <li className='text-[#DB2777] '>Home</li>
         
           <li className='text-[#475569]'>Technologies</li>
           <li className='text-[#475569]'>Projects</li>
