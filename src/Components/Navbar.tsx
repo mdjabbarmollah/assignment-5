@@ -3,7 +3,7 @@ import hambargerLogo from '../assets/hamburger.png'
 const Navbar = () => {
   return (
    
-      <nav className='sticky top-0 bg-white z-50'>
+      <nav className='border-b border-[#F1F5F9] sticky top-0 bg-white z-50'>
       <div className='flex justify-between container mx-auto px-4 py-[12px] items-center font-semibold'>
         <img className='flex md:hidden items-center ' src={hambargerLogo} alt="" />
 
